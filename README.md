@@ -39,12 +39,33 @@ Research 3 main questions:
 1. Q1: What impact do the number of bedrooms, number of bathrooms, acreage and house size have on House Sale Prices?   What has the strongest correlation?
 2. Q2: How do the above correlations vary by State?
 3. Q3: What is the average pricing for a 2 bedroom, 2 bathroom home by State? 	
+4. Q4: What is the variance in Prices by City in the State of New York.  Plot each City and its Price on a Map. 
 
 # Steps
 1. Clean realtor_data.csv data and save clean_states.csv Script: 'data_cleaning.ipynb'
 Remove null, outliers. Keep States used in study: Connecticut, Massachusetts, New Jersey, and New York
 2. Q1 and Q2 Analysis and Visualization script 'sanbox.ipynb'
 3. Q3 Analysis and Visualization script '
+
+# nalysis Q1
+
+# Analysis Q2
+
+# Analysis Q3
+
+# Analysis Q4 
+Source Data file: 'clean_states.csv', a subset of ‘USA Real Estate Datatest’ from Kaggle.com https://www.kaggle.com/datasets/ahmedshahriarsakib/usa-real-estate-dataset
+
+Represent the house prices by cities on a plot. Plot in a different color for each city, plot on a map with Latitude and Longtitude of each city either for just NY State. Could also map plot by cities of each State and have the color be different for each State. Scatter Plot each city with different tick / color for each city. 
+
+4 selected states: Connecticut, Massachusetts, New Jersey, New York. 
+
+Average Price and Standard Deviation (STD) for each State reveals NY with the highest STD in comparison with Connecticut, Massachusettes, and New Jersey. 
+The Median Bedroom and Bath Room Values reveal: 3 Bedrooms, and 2 Bathrooms.  
+
+Assumptions: 1. clean data file may contain duplicates if not removed perhaps on criteria of Sold Date and Address. 
+             2. The df created an Unnamed:0 at the 0 index, these are the row numbers assigned to each record in the dataset. Do not want to use that for House ID. 
+
 
 # Badges
 ? On some READMEs, you may see small images that convey metadata, such as whether or not all the tests are passing for the project. You can use Shields to add some to your README. Many services also have instructions for adding a badge.
