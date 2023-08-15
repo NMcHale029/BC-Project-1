@@ -47,7 +47,7 @@ Remove null, outliers. Keep States used in study: Connecticut, Massachusetts, Ne
 2. Q1 and Q2 Analysis and Visualization script 'sanbox.ipynb'
 3. Q3 Analysis and Visualization script '
 
-# nalysis Q1
+# Analysis Q1
 
 # Analysis Q2
 
