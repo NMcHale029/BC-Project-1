@@ -64,8 +64,10 @@ Use created  function to:
 -display linear regression equation
 Call each independent variable in function to create desired plot and display R-squared for each state.
 
-3. Q3 Analysis and Visualization script '
-Script: 
+3. Q3 Analysis and Visualization 
+Script: 'question-3.ipynb'
+
+Process: Create new dataframes to focus on the pertinent information. Find the average prices for each state and all the states. Created a bar graph to show averages. Create histograms for each state on the frequency of listings for each price.
 
 4. Add-On / not in the Project Proposal: 
 Q4: a. Identify the median and standard deviation for all 4 states on Price, Bedrooms, Bathrooms, Acreage and Size 
