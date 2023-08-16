@@ -38,7 +38,7 @@ Identify any correlation of certain residential home traits on House Pricing wit
 Research 3 main questions: 
 1. Q1: What impact do the number of bedrooms, number of bathrooms, acreage and house size have on House Sale Prices?   What has the strongest correlation?
 2. Q2: How do the above correlations vary by State?
-3. Q3: What is the average pricing for a 2 bedroom, 2 bathroom home by State? 	
+3. Q3: What is the average pricing for a 3 bedroom, 2 bathroom home by State? 	
 4. Q4: What is the variance in Prices by City in the State of New York.  Plot each City and its Price on a Map. 
 
 # Steps
@@ -47,11 +47,23 @@ Remove null, outliers. Keep States used in study: Connecticut, Massachusetts, Ne
 2. Q1 and Q2 Analysis and Visualization script 'sanbox.ipynb'
 3. Q3 Analysis and Visualization script '
 
-# nalysis Q1
+# Analysis Q1
 
 # Analysis Q2
 
-# Analysis Q3
+# Analysis Q3: What is the average pricing for a 2 bedroom / 2 bathrooms home by State?
+Source Data file: 'clean_states.csv', a subset of ‘USA Real Estate Datatest’ from Kaggle.com https://www.kaggle.com/datasets/ahmedshahriarsakib/usa-real-estate-dataset
+
+The average New York house price is $642,090.63. 
+The average New Jersey house price is $350,872.38. 
+The average Massachusetts house price is $546,770.77. 
+The average Connecticut house price is $287,699.46. 
+The average house price for all the states together is $419,604.88.
+
+I found that the average pricing varies between states but is similar between New Jersey and Connecticut and also similar between New York and Massachusetts.
+
+
+
 
 # Analysis Q4 
 Source Data file: 'clean_states.csv', a subset of ‘USA Real Estate Datatest’ from Kaggle.com https://www.kaggle.com/datasets/ahmedshahriarsakib/usa-real-estate-dataset
@@ -73,6 +85,11 @@ Assumptions: 1. clean data file may contain duplicates if not removed perhaps on
 # Visuals 
 PASTE SCREEN SHOTS HERE from Q1, Q2 and Q3 plots here. 
 ? Depending on what you are making, it can be a good idea to include screenshots or even a video (you'll frequently see GIFs rather than actual videos). Tools like ttygif can help, but check out Asciinema for a more sophisticated method.
+Q3: Average Prices Bar Graph (q3_averages.png)
+    Connecticut Histogram  (q3_hist_conn.png)
+    Massachusetts Histogram (q3_hist_mass.png)
+    New Jersey Histogram (q3_hist_nj.png)
+    New York Histogram (q3_hist_NY.png)
 
 # Installation
 ? Within a particular ecosystem, there may be a common way of installing things, such as using Yarn, NuGet, or Homebrew. However, consider the possibility that whoever is reading your README is a novice and would like more guidance. Listing specific steps helps remove ambiguity and gets people to using your project as quickly as possible. If it only runs in a specific context like a particular programming language version or operating system or has dependencies that have to be installed manually, also add a Requirements subsection.
