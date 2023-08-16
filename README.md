@@ -35,40 +35,40 @@ Will sync/ upload/ merge final scripts
 Identify any correlation of certain residential home traits on House Pricing within USA States using a real estate data set. 
 
 # Analysis
-Research 3 main questions: 
-1. Q1: What impact do the number of bedrooms, number of bathrooms, acreage and house size have on House Sale Prices?   What has the strongest correlation?
+Research 3 main questions included in the approved Project Proposal: 
+1. Q1: What impact do the number of bedrooms, number of bathrooms, acreage and house size have on House Sale Prices of four selected States?   What has the strongest correlation?
 2. Q2: How do the above correlations vary by State?
-3. Q3: What is the average pricing for a 2 bedroom, 2 bathroom home by State? 	
-4. Q4: What is the variance in Prices by City in the State of New York.  Plot each City and its Price on a Map. 
+3. Q3: What is the average pricing for a 3 bedroom, 2 bathroom home by State? 	
 
-# Steps
-1. Clean realtor_data.csv data and save clean_states.csv Script: 'data_cleaning.ipynb'
-Remove null, outliers. Keep States used in study: Connecticut, Massachusetts, New Jersey, and New York
-2. Q1 and Q2 Analysis and Visualization script 'sanbox.ipynb'
+# Steps & Analysis 
+1. Clean the input source realtor_data.csv data and create the clean_states.csv that is used for the other scripts in this project. 
+script: data_cleaning.ipynb 
+
+4 selected States based upon amount of data present in the file: Connecticut, Massachusetts, New Jersey, New York. 
+
+Remove null, outliers. Retain the needed columns for 4 States used in study: Connecticut, Massachusetts, New Jersey, and New York
+Assumptions: Duplicates may be present on the criteria of 'sold date' and 'address' 
+
+2. Q1 and Q2 Analysis and Visualization
+Script 'sanbox.ipynb'
+
 3. Q3 Analysis and Visualization script '
+Script: 'variable_analysis.ipynb
 
-# Analysis Q1
+4. Add-On / not in the Project Proposal: 
+Q4: a. Identify the median and standard deviation for all 4 states. 
+b. what is the average price in cities for State of NY. Selected NY as it had the highest STD in Price. 
 
-# Analysis Q2
+Analysis 4a: Mean, STD, ran successfully for all 4 States on Home Prices, Number of Bedrooms, Number of Bathrooms, Acreage, and Size.  
+Findings: Average Price and Standard Deviation (STD) for each State reveals:
+1. NY with the highest STD for Price in comparison with Connecticut, Massachusettes, and New Jersey. 
+2. The Median Number of Bedroom and Bathroom values reveal the average is 3 Bedrooms, and 2 Bathrooms. Identified that the average mean of a home in all four states is of 3 Bedrooms and 2 Bathrooms. 
 
-# Analysis Q3
-
-# Analysis Q4 
-Source Data file: 'clean_states.csv', a subset of ‘USA Real Estate Datatest’ from Kaggle.com https://www.kaggle.com/datasets/ahmedshahriarsakib/usa-real-estate-dataset
-
-Represent the house prices by cities on a plot. Plot in a different color for each city, plot on a map with Latitude and Longtitude of each city either for just NY State. Could also map plot by cities of each State and have the color be different for each State. Scatter Plot each city with different tick / color for each city. 
-
-4 selected states: Connecticut, Massachusetts, New Jersey, New York. 
-
-Average Price and Standard Deviation (STD) for each State reveals NY with the highest STD in comparison with Connecticut, Massachusettes, and New Jersey. 
-The Median Bedroom and Bath Room Values reveal: 3 Bedrooms, and 2 Bathrooms.  
-
-Assumptions: 1. clean data file may contain duplicates if not removed perhaps on criteria of Sold Date and Address. 
-             2. The df created an Unnamed:0 at the 0 index, these are the row numbers assigned to each record in the dataset. Do not want to use that for House ID. 
-
-
-# Badges
-? On some READMEs, you may see small images that convey metadata, such as whether or not all the tests are passing for the project. You can use Shields to add some to your README. Many services also have instructions for adding a badge.
+4b. Used source file from kaggle.com called UnitedStates Cities DB 'uscities.csv' to get coordinates: Latitude and Longitude for each city in State of New York. 
+Identified that 106 of the 274 cities for NY State in this project had coordinates in the uscities.csv file. 
+suspended looking further into this question. 
+future study that may be more beneficial would be perhaps to study the increase in the average price of each city over a period of time. Could utilize the sold date and address of the house. 
+ 
 
 # Visuals 
 PASTE SCREEN SHOTS HERE from Q1, Q2 and Q3 plots here. 
