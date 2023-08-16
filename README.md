@@ -50,10 +50,22 @@ Remove null, outliers. Retain the needed columns for 4 States used in study: Con
 Assumptions: Duplicates may be present on the criteria of 'sold date' and 'address' 
 
 2. Q1 and Q2 Analysis and Visualization
-Script 'sanbox.ipynb'
+Script: 'variable_analysis.ipynb'
+
+Process: 
+Create new data frames for each state by filtering our original data frame. Create scatter plots to display each independent variable in relation to house price. Run linear regression for each plot and calculate the squared r-value for each variable to determine how much of the variation of the home price is explained by our independent variables.
+
+Steps:
+Create new data frames to only include relevant state.
+Use created  function to: 
+-populate scatter plots
+-calculate correlation 
+-run linear regression
+-display linear regression equation
+Call each independent variable in function to create desired plot and display R-squared for each state.
 
 3. Q3 Analysis and Visualization script '
-Script: 'variable_analysis.ipynb
+Script: 
 
 4. Add-On / not in the Project Proposal: 
 Q4: a. Identify the median and standard deviation for all 4 states on Price, Bedrooms, Bathrooms, Acreage and Size 
