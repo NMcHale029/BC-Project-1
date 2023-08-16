@@ -56,7 +56,7 @@ Script 'sanbox.ipynb'
 Script: 'variable_analysis.ipynb
 
 4. Add-On / not in the Project Proposal: 
-Q4: a. Identify the median and standard deviation for all 4 states. 
+Q4: a. Identify the median and standard deviation for all 4 states on Price, Bedrooms, Bathrooms, Acreage and Size 
 b. what is the average price in cities for State of NY. Selected NY as it had the highest STD in Price. 
 
 Analysis 4a: Mean, STD, ran successfully for all 4 States on Home Prices, Number of Bedrooms, Number of Bathrooms, Acreage, and Size.  
@@ -67,7 +67,7 @@ Findings: Average Price and Standard Deviation (STD) for each State reveals:
 4b. Used source file from kaggle.com called UnitedStates Cities DB 'uscities.csv' to get coordinates: Latitude and Longitude for each city in State of New York. 
 Identified that 106 of the 274 cities for NY State in this project had coordinates in the uscities.csv file. 
 suspended looking further into this question. 
-future study that may be more beneficial would be perhaps to study the increase in the average price of each city over a period of time. Could utilize the sold date and address of the house. 
+future study that may be more beneficial would be perhaps to study the increase in the average price of each city for one or more States over a period of time. Could utilize the sold date and address of the house. 
  
 
 # Visuals 
